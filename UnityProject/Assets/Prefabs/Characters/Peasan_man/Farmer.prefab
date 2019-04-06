@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1196919918664959454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4466489768677228236}
+  - component: {fileID: 4900196266430558305}
+  - component: {fileID: 7110987545393108408}
+  m_Layer: 0
+  m_Name: Hat_Farmer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4466489768677228236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196919918664959454}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: -0.03, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 3668492962760006361}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &4900196266430558305
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196919918664959454}
+  m_Mesh: {fileID: 4300000, guid: 7cf432e4dc7cd064da27dc1fcaa4f1df, type: 3}
+--- !u!23 &7110987545393108408
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196919918664959454}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 40d9bbacf4570314ea321af25f63dd30, type: 2}
+  - {fileID: 2100000, guid: 40d9bbacf4570314ea321af25f63dd30, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &3828956850020070417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666914547958277727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055afc9221490874590e49397dd4c86e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 3706738315050634121}
+  backpack: {fileID: 3706682240788089881}
+  navMeshAgent: {fileID: 3482234550301593235}
+  moveSpeed: 1.8
+  currentHunger: 318.9595
+  maxHunger: 500
+  minHungerBeforeStarving: 50
+  currentLife: 100
+  maxLife: 100
+  description: The Farmer cultivate <color=green>Wheats</color> from fields.
+--- !u!114 &8129390244439716289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666914547958277727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac5f1ce5106ae143be32258886124d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1
+  target: {fileID: 0}
+  workDuration: 20
+--- !u!114 &6371731421797875356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666914547958277727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0338dcbc9b7733e4489b4f753995ffbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1
+  target: {fileID: 0}
+--- !u!114 &6581591190697081665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666914547958277727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c69cc84e4f6fe4abc42a4099854004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1
+  target: {fileID: 0}
+--- !u!1001 &3667856273342211001
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1592653850592742, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_Name
+      value: Farmer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114296445660327840, guid: 1952b486dc80525428205946a7993e3d,
+        type: 3}
+      propertyPath: toolType
+      value: ToolScythe3D
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114016378427498876, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+--- !u!1 &3666914547958277727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1592653850592742, guid: 1952b486dc80525428205946a7993e3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3667856273342211001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &3482234550301593235 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 195262301124799786, guid: 1952b486dc80525428205946a7993e3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3667856273342211001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3706682240788089881 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114296445660327840, guid: 1952b486dc80525428205946a7993e3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3667856273342211001}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666914547958277727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f830e1c7a1c9fb04c8a2e67656c60805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3706738315050634121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114328332730656816, guid: 1952b486dc80525428205946a7993e3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3667856273342211001}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666914547958277727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a07630984c23e48a79079359aca64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &3668492962760006361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4447735819581792, guid: 1952b486dc80525428205946a7993e3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3667856273342211001}
+  m_PrefabAsset: {fileID: 0}

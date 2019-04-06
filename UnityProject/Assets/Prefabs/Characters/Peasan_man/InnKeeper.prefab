@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &701342072583419869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313088550272591514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c69cc84e4f6fe4abc42a4099854004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1
+  target: {fileID: 0}
+--- !u!114 &2587001985344064007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313088550272591514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59fa442d761b5e244bf5ab4749d1a04e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1
+  target: {fileID: 0}
+--- !u!114 &3586216278958102265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313088550272591514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 406595ae329c73f4c954e666f7e62e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 5199516146702666572}
+  backpack: {fileID: 5199504053391772892}
+  navMeshAgent: {fileID: 5407696596184010326}
+  moveSpeed: 1.8
+  currentHunger: 750
+  maxHunger: 750
+  minHungerBeforeStarving: 50
+  currentLife: 100
+  maxLife: 100
+  description: The InnKeeper cook <color=blue>Bread</color> with 1 <color=#8B4513>Firewood</color>
+    and 2 <color=green>Wheats</color>.
+--- !u!114 &4650423212582219306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313088550272591514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85957cb4e9ec3b4418067d7de50ef575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1
+  target: {fileID: 0}
+--- !u!114 &7260043028774645509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313088550272591514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f955f9ac39d8cc64da4ec7477d694c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1
+  target: {fileID: 0}
+--- !u!114 &7622468970953395968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313088550272591514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd530fbf4a6c2a47b87b56bb031fe52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1
+  target: {fileID: 0}
+  cookDuration: 20
+--- !u!1001 &5313765288824710012
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1592653850592742, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_Name
+      value: InnKeeper
+      objectReference: {fileID: 0}
+    - target: {fileID: 114296445660327840, guid: 1952b486dc80525428205946a7993e3d,
+        type: 3}
+      propertyPath: toolType
+      value: ToolShovel3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464580082860664, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114016378427498876, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 1952b486dc80525428205946a7993e3d, type: 3}
+--- !u!1 &5313088550272591514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1592653850592742, guid: 1952b486dc80525428205946a7993e3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5313765288824710012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &5407696596184010326 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 195262301124799786, guid: 1952b486dc80525428205946a7993e3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5313765288824710012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5199504053391772892 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114296445660327840, guid: 1952b486dc80525428205946a7993e3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5313765288824710012}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313088550272591514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f830e1c7a1c9fb04c8a2e67656c60805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5199516146702666572 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114328332730656816, guid: 1952b486dc80525428205946a7993e3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5313765288824710012}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313088550272591514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a07630984c23e48a79079359aca64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
