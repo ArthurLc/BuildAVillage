@@ -12,8 +12,18 @@ using UnityEngine.SceneManagement;
 */
 
 public class MenuManager : MonoBehaviour {
-    
-    public void LaunchGame() {
+
+    [SerializeField] private GameObject gameModes;
+
+    public void OpenOrClose_GameModes()
+    {
+        gameModes.SetActive(!gameModes.activeInHierarchy);
+    }
+    public void LaunchGame_Solo() {
+        SceneManager.LoadScene(2);
+    }
+    public void LaunchLobby()
+    {
         SceneManager.LoadScene(1);
     }
     public void QuitGame() {
